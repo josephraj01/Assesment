@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3440" started-at="2022-01-06T08:00:18Z" finished-at="2022-01-06T08:00:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3440" started-at="2022-01-06T08:00:18Z" finished-at="2022-01-06T08:00:21Z">
+      <class name="testcase.Execution">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcase.Execution@59ec2012]" name="setup" is-config="true" duration-ms="754" started-at="2022-01-06T08:00:18Z" finished-at="2022-01-06T08:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="get()[pri:0, instance:testcase.Execution@59ec2012]" name="get" duration-ms="2646" started-at="2022-01-06T08:00:19Z" finished-at="2022-01-06T08:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcase.Execution@59ec2012]" name="TearDown" is-config="true" duration-ms="0" started-at="2022-01-06T08:00:21Z" finished-at="2022-01-06T08:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcase.Execution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
