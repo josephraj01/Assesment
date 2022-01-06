@@ -1,10 +1,8 @@
 package base;
 
 
-import java.util.Properties;
 
 import org.json.simple.JSONObject;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 
@@ -19,9 +17,6 @@ import io.restassured.specification.RequestSpecification;
 
 
 public class TestBase {
-
-	public static WebDriver driver;
-	public static Properties prop; 
 
 	static String BASE_URL = ConfigManager.getInstance().getString("base_url");
 
